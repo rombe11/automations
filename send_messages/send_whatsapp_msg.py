@@ -11,7 +11,7 @@ CONTACT_NAMES = ["Noam Pollisse"]
 MESSAGE_TEMPLATE = (
     f"Hi {CONTACT_NAMES[0]},\n"
     "Please enter the link:\n"
-    "{url}"
+    f"{https://rombe11.github.io/automations/}"
 )
 
 options = Options()
