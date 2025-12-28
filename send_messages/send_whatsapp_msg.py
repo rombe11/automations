@@ -7,7 +7,12 @@ import schedule
 import time
 
 # === Settings ===
-CONTACT_NAMES = ["Anton", "Noam Pollisse"]
+CONTACT_NAMES = ["Noam Pollisse"]
+MESSAGE_TEMPLATE = (
+    f"Hi {CONTACT_NAMES[0]},\n"
+    "Please enter the link:\n"
+    "{url}"
+)
 
 options = Options()
 options.add_argument(r"user-data-dir=C:\Users\rombu\AppData\Local\Google\Chrome\User Data\BotProfile")

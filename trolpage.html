@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Security Awareness</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    button {
+      padding: 15px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: #2563eb;
+      color: white;
+    }
+
+    button:hover {
+      background-color: #1e40af;
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="showWarning()">
+    Click me
+  </button>
+
+  <script>
+    function showWarning() {
+      alert(
+        "Warning!\n\n" +
+        "hahaha your data is mine!\n" +
+        "You may get hacked."
+      );
+    }
+  </script>
+
+</body>
+</html>
